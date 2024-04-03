@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gavin L. Martin's Resume</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            color: #333;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-image {
+            margin-right: 20px;
+            width: 100px; /* Adjust the size as needed */
+            height: 100px; /* Adjust the size as needed */
+            border-radius: 50%; /* Optional: creates a circular image */
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        h1 {
+            font-size: 28px;
+            margin: 0;
+        }
+        h2 {
+            font-size: 22px;
+            margin-top: 30px;
+        }
+        p, li {
+            font-size: 16px;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .section-title {
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="static/Screenshot 2024-04-01 202719squared2.jpg" alt="Gavin Martin profile picture" class="profile-image">
+        <div>
+            <h1>Gavin L. Martin</h1>
+            <p class="contact-info">
+                San Diego, CA |
+                <a href="mailto:Gavin.L.Martin@gmail.com">Gavin.L.Martin@gmail.com</a> |
+                <a href="https://github.com/Siris4" target="_blank">GitHub</a> |
+                <a href="https://linkedin.com/in/gmartin4" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+    </header>
+
+    <!-- The rest of the sections are unchanged and should be included as they are in your original HTML -->
+    <section>
+        <h2 class="section-title">Technical Skills</h2>
+        <p><strong>Languages & Frameworks:</strong> Python (advanced concepts including asynchronous programming, decorators, context managers), Django, Flask, React, SpringBoot</p>
+        <p><strong>Data Science & ML:</strong> Pandas, NumPy, scikit-learn, data visualization (Matplotlib, Seaborn, Plotly), machine learning concepts and implementations</p>
+        <p><strong>Web Development:</strong> HTML5, CSS3, Bootstrap, RESTful API development, web scraping (Beautiful Soup, Selenium), deployment (Heroku, GUnicorn)</p>
+        <p><strong>Databases:</strong> Proficient in SQL and NoSQL databases, including PostgreSQL, MongoDB; experienced with ORM techniques.</p>
+        <p><strong>Tools & Technologies:</strong> Git, GitHub, Docker, Jupyter Notebook, PyCharm, Google Colab, Agile methodologies, & TDD.</p>
+        <p><strong>Soft Skills:</strong> Strong communication, teamwork, and problem-solving skills; proven ability to lead teams and projects.</p>
+    </section>
+
+    <section>
+        <h2 class="section-title">Professional & Work Experience</h2>
+        <p><strong>Self-Directed Software Developer / Cross-Cultural Experience</strong> - Monterrey, Mexico, Winter 2023 – Spring 2024</p>
+        <p><strong>Apple Inc.</strong> - Certified Apple Genius Bar Technician | La Jolla, CA, 2015 – 2022</p>
+        <p><strong>Hyatt Hotels</strong> - Assistant Front Office Manager | Oceanside, CA, Jan 2023 – Sept 2023</p>
+        <p><strong>Other previous employers:</strong> Marriott Hotels, Hilton Hotels, Enterprise Rental, and Sheraton Hotels.</p>
+    </section>
+
+    <section>
+        <h2 class="section-title">Project Experience</h2>
+        <p><strong>Data Science Projects:</strong> Utilized machine learning algorithms for predictive analysis and automation tools built for use within productivity apps.</p>
+        <p><strong>Authentication Login System:</strong> Developed a secure system using Django, showcasing expertise in cybersecurity principles.</p>
+    </section>
+
+    <section>
+        <h2 class="section-title">Education & Certifications</h2>
+        <ul>
+            <li>Bachelor’s Focus in Computer Science at Purdue University on-campus in West, Lafayette, Indiana (2002-2005)</li>
+            <li>University of California San Diego (UCSD): Python Certification</li>
+            <li>Udemy Certificates: Automate the Boring Stuff with Python, 100 Days of Code: Complete Pro Bootcamp</li>
+            <li>SkillShare Courses: Productivity Masterclass; How to Organize your Workflow to Maximize Productivity</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="section-title">Achievements & Professional Development</h2>
+        <ul>
+            <li>Completed The 100 Days of Code Challenge, building 100+ unique projects including web apps, games, and data science models.</li>
+            <li>Apple Genius Bar Certification: Achieved a 98% score on Apple’s iOS internal Exam, demonstrating exceptional technical and problem-solving skills.</li>
+            <li>Leadership: Involved in heavily training the first ever official Apple Store launched in Mexico. Successfully mentored teams and individuals, significantly improving project outcomes and technical skill levels.</li>
+            <li>Actively engages in continuous learning through online platforms, focusing on advanced programming techniques, software development principles, and the latest technology trends.</li>
+            <li>Regular contributor to open-source projects, enhancing collaboration skills and industry knowledge.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Contact me at <a href="mailto:Gavin.L.Martin@gmail.com">Gavin.L.Martin@gmail.com</a></p>
+    </footer>
+</body>
+</html>
